@@ -1,0 +1,50 @@
+@use "./size" as *;
+@use "./colors" as *;
+
+.containerApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: $widthApp;
+  margin-left: auto;
+  margin-right: auto;
+}
+.containerChildren {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: $widthSection;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boxBasic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 285px;
+
+  fill: inherit;
+  color: inherit;
+  &:hover {
+    color: inherit;
+    fill: inherit;
+  }
+}
+
+.subTitle {
+  margin-top: 24px;
+  // margin-bottom: 60px;
+  color: $gray700;
+}
+.notSubTitle {
+  margin-bottom: 60px;
+}
+.containerSection {
+  width: $widthSection;
+  margin-left: auto;
+  margin-right: auto;
+}

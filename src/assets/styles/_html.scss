@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Ubuntu;
+  margin: 0;
+
+  // color: $gray900;
+}
+h1 {
+  //styleName: h1;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+  color: inherit;
+}
+h2 {
+  //styleName: h2;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+}
+h4 {
+  //styleName: h4;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-align: left;
+}
+input {
+  outline: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.container {
+  //position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: $widthSection;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.methods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 40px;
+}
+.itemMerhod {
+  padding: 20px 40px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+
+  font-size: 18px;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.3s;
+
+  &:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+}

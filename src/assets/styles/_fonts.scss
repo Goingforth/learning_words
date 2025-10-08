@@ -1,0 +1,95 @@
+@use "./colors" as *;
+
+.small_bold {
+  //styleName: small/bold;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+}
+.base_bold {
+  //styleName: base/bold;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  text-align: left;
+}
+.mid_bold {
+  //styleName: large/bold;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+}
+.lead_bold {
+  //styleName: lead/bold;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: $gray900;
+}
+.large_bold {
+  //styleName: lead/bold;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: $gray900;
+}
+
+.base_regular {
+  //styleName: base/regular;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  color: $gray700;
+}
+
+.large_regular {
+  //styleName: large/regular;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+.lead_regular {
+  //styleName: lead/regular;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.small_regular {
+  //styleName: small/regular;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.extrasmall_regular {
+  //styleName: extrasmall/regular;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  // letter-spacing: 0.5px;
+}
+
+.lato_black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}

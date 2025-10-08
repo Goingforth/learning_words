@@ -1,0 +1,51 @@
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  width: 1230px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+}
+a.active {
+  color: $primary;
+}
+.navBlock {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.navLinks {
+  display: flex;
+  gap: 60px;
+}
+.navLink {
+  color: $gray800;
+
+  &:hover {
+    color: $primary;
+    transition: color 0.5s;
+  }
+}
+.active {
+  color: $primary;
+}
+
+.connection {
+  display: flex;
+  gap: 36px;
+}
+.connectionItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  fill: $primary;
+}
+
+.connectionItemUs {
+  color: $gray800;
+}
+.connectionItemData {
+  color: $gray900;
+}
